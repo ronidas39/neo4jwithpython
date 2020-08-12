@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>results</title>
+</head>
+<body>
+    <h1>Results:</h1>
+    {% for dict_items in list %}
+      
+      <h2>Name: {{dict_items["Name"]}},City: {{dict_items["City"]}}</h2>
+      
+   
+{% endfor %}
+</body>
+</html>

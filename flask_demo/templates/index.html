@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo4j Flask Demo</title>
+</head>
+<body>
+    <form action="/graph" method="POST" enctype="multipart/form-data">
+    <label for="task">Complete Graph</label>
+    <br>
+    <button type="submit" name="submit" value="find_graph">find graph</button>
+    <br>
+    <label for="task">Find Properties</label>
+    <br>
+    <input type="text" name="name" id="name" placeholder="Enter Name of a person">
+    <button type="submit" name="submit" value="find_property">find property</button>
+    <br>
+    <label for="task">Find Friends</label>
+    <br>
+    <input type="text" name="friends" id="friends" placeholder="Enter Name of a person">
+    <button type="submit" name="submit" value="find_friends">find  Friends</button>
+    </form>
+    
+</body>
+</html>
